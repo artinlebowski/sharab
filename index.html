@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>training || day</title>
+    <link rel="stylesheet" href="./swiper-slide/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./main.css/main.css" />
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+  </head>
+  <body>
+    <!-- ******main animation******* -->
+    <article class="animation-wrapper">
+      <div class="header-animation1"></div>
+      <div class="header-animation2"></div>
+      <div class="header-animation3"></div>
+    </article>
+    <!-- ******end of main animation******* -->
+
+    <!-- ******header******* -->
+    <header>
+      <!-- ******navbar******* -->
+      <nav class="navbar">
+        <div class="navbar-center">
+          <div class="nav-header">
+            <h3>brandian</h3>
+            <button id="nav-btn" class="nav-toggle" type="button">
+              <i class="bi bi-list-nested"></i>
+            </button>
+          </div>
+
+          <ul id="navbar" class="nav-links">
+            <li>
+              <a class="nav-link" href="">صفحه اصلی</a>
+            </li>
+            <li>
+              <a class="nav-link" href="">درباره ما</a>
+            </li>
+            <li>
+              <a class="nav-link" href="">همه محصولات</a>
+            </li>
+            <li>
+              <a id="categories" class="nav-link" href="">دسته بندی</a>
+            </li>
+            <li>
+              <a class="nav-link count" href="">کیف</a>
+            </li>
+            <li>
+              <a class="nav-link count" href="">کفش</a>
+            </li>
+            <li>
+              <a class="nav-link count" href="">لباس</a>
+            </li>
+            <li>
+              <a class="nav-link count" href="">تیشرت</a>
+            </li>
+            <li>
+              <a class="nav-link count" href="">هودی</a>
+            </li>
+            <li>
+              <a class="nav-link count" href="">کراپ</a>
+            </li>
+          </ul>
+
+          <ul class="nav-icons">
+            <li>
+              <a href=""><i class="bi bi-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-whatsapp"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bi bi-telegram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- ******end of navbar******* -->
+
+      <!-- ******hero for mobile******* -->
+      <article class="hero">
+        <div class="hero-banner">
+          <h1>لورم ایپسوم</h1>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+            و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
+            زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و
+            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+          </p>
+          <a class="btn btn-banner" href="#">همه محصولات</a>
+        </div>
+      </article>
+
+      <!-- ******end of hero for mobile******* -->
+    </header>
+    <!-- ******hero for desktop******* -->
+    <article class="desktop-hero">
+      <div class="hero-animation-wrapper">
+        <div class="hero-animation">
+          <ul class="direction-right">
+            <li>
+              <a href=""
+                ><img class="hero-animation-image" src="./images/1.jpg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img class="hero-animation-image" src="./images/1.jpg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img class="hero-animation-image" src="./images/1.jpg" alt=""
+              /></a>
+            </li>
+
+          </ul>
+
+          <ul class="direction-left">
+            <li>
+              <a href=""
+                ><img class="hero-animation-image" src="./images/1.jpg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img class="hero-animation-image" src="./images/1.jpg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img class="hero-animation-image" src="./images/1.jpg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="desktop-hero-banner">
+        <h1>لورم ایپسوم</h1>
+        <p>
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+          ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+          کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+          در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+          طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+        </p>
+        <a class="btn btn-banner" href="#">همه محصولات</a>
+      </div>
+    </article>
+
+    <!-- ******end of hero for desktop******* -->
+    <!-- ******end of header******* -->
+
+    <!-- start of first slide -->
+    <div class="swiper-title section-title">
+      <h2>جدیدترین<span> محصولات</span></h2>
+    </div>
+    <!-- Slider main container -->
+    <div id="swiper1" class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <!-- <div class="swiper-shoppingcart"><a href="#" class="slider-icon"><i class="bi bi-instagram"></i></a></div> -->
+          <div class="swiper-div">
+            <img class="swiper-image" src="./images/1.jpg" alt="" />
+            <div class="swiper-text">
+              <h3>لورم ایپسوم</h3>
+              <h4>دارای اندازه های مختلف</h4>
+              <a class="btn-slide swiper-btn" target="_blank" href="#">نمایش</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- <div class="swiper-shoppingcart"><a href="#" class="slider-icon"><i class="bi bi-instagram"></i></a></div> -->
+          <div class="swiper-div">
+            <img class="swiper-image" src="./images/1.jpg" alt="" />
+            <div class="swiper-text">
+              <h3>لورم ایپسوم</h3>
+              <h4>دارای اندازه های مختلف</h4>
+              <a class="btn-slide swiper-btn" target="_blank" href="#">نمایش</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- <div class="swiper-shoppingcart"><a href="#" class="slider-icon"><i class="bi bi-instagram"></i></a></div> -->
+          <div class="swiper-div">
+            <img class="swiper-image" src="./images/1.jpg" alt="" />
+            <div class="swiper-text">
+              <h3>لورم ایپسوم</h3>
+              <h4>دارای اندازه های مختلف</h4>
+              <a class="btn-slide swiper-btn" target="_blank" href="#">نمایش</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- <div class="swiper-shoppingcart"><a href="#" class="slider-icon"><i class="bi bi-instagram"></i></a></div> -->
+          <div class="swiper-div">
+            <img class="swiper-image" src="./images/1.jpg" alt="" />
+            <div class="swiper-text">
+              <h3>لورم ایپسوم</h3>
+              <h4>دارای اندازه های مختلف</h4>
+              <a class="btn-slide swiper-btn" target="_blank" href="#">نمایش</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- <div class="swiper-shoppingcart"><a href="#" class="slider-icon"><i class="bi bi-instagram"></i></a></div> -->
+          <div class="swiper-div">
+            <img class="swiper-image" src="./images/1.jpg" alt="" />
+            <div class="swiper-text">
+              <h3>لورم ایپسوم</h3>
+              <h4>دارای اندازه های مختلف</h4>
+              <a class="btn-slide swiper-btn" target="_blank" href="#">نمایش</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <!-- <div class="swiper-shoppingcart"><a href="#" class="slider-icon"><i class="bi bi-instagram"></i></a></div> -->
+          <div class="swiper-div">
+            <img class="swiper-image" src="./images/1.jpg" alt="" />
+            <div class="swiper-text">
+              <h3>لورم ایپسوم</h3>
+              <h4>دارای اندازه های مختلف</h4>
+              <a class="btn-slide swiper-btn" target="_blank" href="#">نمایش</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagination-wrapper">
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    <!-- End of slide -->
+
+    <!--  gallery -->
+    <section class="section gallery section-title">
+      <h2>گالری<span> محصولات</span></h2>
+      <article class="gallery-article">
+        <div id="box" class="gallery-wrapper">
+          <a class="gallery-link" href=""
+            ><img class="gallery-image" src="./images/1.jpg" alt=""
+          /></a>
+          <h3 class="gallery-text">شلوار</h3>
+        </div>
+        <div id="box" class="gallery-wrapper">
+          <a class="gallery-link" href=""
+            ><img class="gallery-image" src="./images/2.jpg" alt=""
+          /></a>
+          <h3 class="gallery-text">شلوار</h3>
+        </div>
+        <div id="box" class="gallery-wrapper">
+          <a class="gallery-link" href=""
+            ><img class="gallery-image" src="./images/3.jpg" alt=""
+          /></a>
+          <h3 class="gallery-text">شلوار</h3>
+        </div>
+        <div id="box" class="gallery-wrapper">
+          <a class="gallery-link" href=""
+            ><img class="gallery-image" src="./images/4.jpg" alt=""
+          /></a>
+          <h3 class="gallery-text">شلوار</h3>
+        </div>
+        <div id="box" class="gallery-wrapper">
+          <a class="gallery-link" href=""
+            ><img class="gallery-image" src="./images/1.jpg" alt=""
+          /></a>
+          <h3 class="gallery-text">شلوار</h3>
+        </div>
+        <div id="box" class="gallery-wrapper">
+          <a class="gallery-link" href=""
+            ><img class="gallery-image" src="./images/2.jpg" alt=""
+          /></a>
+          <h3 class="gallery-text">شلوار</h3>
+        </div>
+        <div id="box" class="gallery-wrapper">
+          <a class="gallery-link" href=""
+            ><img class="gallery-image" src="./images/3.jpg" alt=""
+          /></a>
+          <h3 class="gallery-text">شلوار</h3>
+        </div>
+        <div id="box" class="gallery-wrapper">
+          <a class="gallery-link" href=""
+            ><img class="gallery-image" src="./images/3.jpg" alt=""
+          /></a>
+          <h3 class="gallery-text">شلوار</h3>
+        </div>
+      </article>
+    </section>
+
+    <!-- End of gallery -->
+
+    <!-- about section -->
+    <section class="section-title">
+      <h2>درباره<span> ما</span></h2>
+      <article class="aboutus-wrapper">
+        <div class="aboutus-image-wrapper">
+          <img
+            class="aboutus-image"
+            src="./images/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg"
+            alt=""
+          />
+        </div>
+        <div class="aboutus-text-wrapper">
+          <h3 class="aboutus-title">درباره ما</h3>
+          <p class="aboutus-text">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+            و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
+            زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و
+            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+            رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد
+            کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه
+            راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل
+            حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود
+            طراحی اساسا مورد استفاده قرار گیرد.
+          </p>
+        </div>
+      </article>
+    </section>
+    <!-- end of about section -->
+
+    <!-- footer section -->
+    <footer>
+      <section class="footer-section">
+        <article class="footer-text">
+          <div class="footer-list-wrapper">
+            <a href="" class="footer-list">صفحه اصلی</a>
+            <a href="" class="footer-list">تماس با ما</a>
+            <a href="" class="footer-list">محصولات</a>
+          </div>
+          <div class="footer-icon-wrapper">
+            <a href="" class="footer-icon"><i class="bi bi-telegram"></i></a>
+            <a href="" class="footer-icon"><i class="bi bi-instagram"></i></a>
+            <a href="" class="footer-icon"><i class="bi bi-whatsapp"></i></a>
+          </div>
+          <p class="footer-p">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+            و کاربردهای متنوع
+          </p>
+          <p class="footer-p">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+          </p>
+        </article>
+        <article class="footer-map">
+          <div class="map_container">
+            <div id="map" style="height: 345px;"></div>
+
+          </div>          
+          
+                    
+        </article>
+      </section>
+    </footer>
+    <!-- end of footer section -->
+
+    <script src="./swiper-slide/swiper-bundle.min.js"></script>
+    <script src="./javascript/slider.js"></script>
+    <script src="./javascript/animation.js"></script>
+    <script src="./javascript/main.js"></script>
+
+    <script>
+        var map = L.map('map').setView([35.700105, 51.400394], 14);
+        var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+        }).addTo(map);
+        var marker = L.marker([35.700105, 51.400394]).addTo(map)
+            .bindPopup('<b>webprog</b>').openPopup();
+    </script>
+  </body>
+</html>
